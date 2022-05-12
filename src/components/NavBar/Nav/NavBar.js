@@ -47,7 +47,7 @@ const NavBar =()=>{
     <>
         <NavBarContainer>
             <NavBarWrapper>
-                <NavLink to="/"><Logo><img src={logo} alt="" width={80} /></Logo></NavLink>
+                <NavLink to="/"><Logo><img src={"https://firebasestorage.googleapis.com/v0/b/tienda-de-artesanias.appspot.com/o/logo.jpeg?alt=media&token=362be7d9-189b-4b61-8f52-75373c6f4b79"} alt="" width={80} /></Logo></NavLink>
                 <IconLogoMobile onClick={()=>ChangeClick()}>
                     {click?<FaTimes/>:<FaBars/>}
                     </IconLogoMobile>
