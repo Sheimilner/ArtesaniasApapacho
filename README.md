@@ -73,6 +73,8 @@ Para la elaboración de este proyecto se utilizaron las siguientes herramientas:
 
 ### Para conocer el sitio desplegado podés seguir el siguiente enlace: https://artesanias-apapacho.vercel.app/
 
+<hr>
+
 ## Autor ✒️
 
 * Sheila Milner 
