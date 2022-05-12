@@ -11,6 +11,8 @@ color: #F3FFF5;
 text-decoration: none !important;
 margin-right: 1%;
 border-color: #B16281;
+&:hover{
+cursor: hand;}
 `
 export const ButtonSeguir= styled.button`
 height: 35px;
@@ -26,6 +28,8 @@ margin-right: 20px;
 margin-left: 20px;
 margin-bottom: 10px;
 border-color: #B16281;
+&:hover{
+cursor: hand;}
  `
 
 export const LineaItem = styled.div`

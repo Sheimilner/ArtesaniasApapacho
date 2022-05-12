@@ -7,6 +7,7 @@ import { Error } from "./components/Error/Error";
 import  CustomProvider  from "./Context/CartContext";
 
 
+
 function App() {
   const greeting = "Bienvenid@ a la tienda de Artesanías Apapacho";
   return (

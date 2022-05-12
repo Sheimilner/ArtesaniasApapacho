@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import {NavBarContainer, NavBarWrapper, Logo , Menu, MenuItem, IconLogoMobile } from "./NavBarStyle";
-import logo from "./logo.jpeg";
 import {FaBars, FaTimes} from "react-icons/fa";
 import CartWidget from '../Cartwidget/CartWidget';
 import {Link, NavLink} from 'react-router-dom';

@@ -6,6 +6,8 @@ color: #E7F2DF;
 height: 35;
 cursor: pointer;
 border-radius: 5px;
+&:hover{
+cursor: hand;}
 `
 export const ItemCountContainer = styled.div`
 display: grid;
@@ -32,6 +34,8 @@ margin-top: 2px;
 background-color: #F28B0C;
 color: #F3FFF5; 
 text-decoration: none;
+&:hover{
+cursor: hand;}
 
 `
 export const ButtonResta= styled.button`
@@ -44,6 +48,8 @@ grid-column: 1/2;
 grid-row: 1/2;
 background-color: #F28B0C;
 color: #F3FFF5; 
+&:hover{
+cursor: hand;}
 `
 export const ButtonSuma= styled.button`
 width: 80px;
@@ -54,7 +60,9 @@ margin-top: 5px;
 grid-column: 3/4;
 grid-row: 1/2;
 background-color: #F28B0C;
-color: #F3FFF5; 
+color: #F3FFF5;
+&:hover{
+cursor: hand;} 
 `
 export const MuestraCantidad= styled.p`
 grid-column: 2/3;
@@ -77,5 +85,7 @@ color: #F3FFF5;
 justify-content: center;
 vertical-align: middle;
 border-color: #B16281;
+&:hover{
+cursor: hand;}
 
 `

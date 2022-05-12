@@ -97,7 +97,7 @@ const handlervaciarCarro=()=>{
         <Final>
             <p>Total de productos: {cantidadItems} </p>
             <p> Total a pagar: $ {precioTotal}</p>
-            <ButtonSeguir onClick={handlervaciarCarro}>vaciar Carrito</ButtonSeguir>
+            <ButtonSeguir onClick={handlervaciarCarro}>Vaciar Carrito</ButtonSeguir>
             <ButtonSeguir onClick={handlerFinalizarCompra}>Finalizar Compra</ButtonSeguir>
         </Final>
         

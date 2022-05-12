@@ -39,6 +39,8 @@ background-color: #F28B0C;
 color: #F3FFF5;
 text-decoration: none !important;
 margin: 0 auto;
+&:hover{
+cursor: hand;}
 `
 export const Titulo = styled.h1`
 font-size: 3vh;
