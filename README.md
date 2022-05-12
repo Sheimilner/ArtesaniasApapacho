@@ -64,7 +64,14 @@ Para la elaboración de este proyecto se utilizaron las siguientes herramientas:
 - Muestra un resumen de la compra a realizar junto al formulario para finalizar la transacción.
 - Puede eliminar un producto en específico o bien vaciar el carrito por completo.
 
+###formulario de contacto
+-Permite registrar los datos del usuario
+-Asocia los datos del usuario a un ID de compra
+-muestra el ID de la compra una vez enviado el formulario
 
+<hr>
+
+## Para conocer el sitio desplegado podés seguir el siguiente enlace: https://artesanias-apapacho.vercel.app/
 
 ## Autor ✒️
 
