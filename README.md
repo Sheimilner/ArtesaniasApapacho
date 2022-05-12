@@ -71,7 +71,7 @@ Para la elaboración de este proyecto se utilizaron las siguientes herramientas:
 
 <hr>
 
-## Para conocer el sitio desplegado podés seguir el siguiente enlace: https://artesanias-apapacho.vercel.app/
+### Para conocer el sitio desplegado podés seguir el siguiente enlace: https://artesanias-apapacho.vercel.app/
 
 ## Autor ✒️
 
