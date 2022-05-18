@@ -1,7 +1,7 @@
 import{contexto} from "../../Context/CartContext";
 import { useState, useContext, useEffect} from "react";
 import {Link} from "react-router-dom";
-import { ButtonFin, LineaItem, ButtonSeguir, Titulo, Imagen, Final, Info, Compra} from "./CartStyle";
+import { ButtonFin, LineaItem, ButtonSeguir, Titulo, Imagen, Final, Info,Info2,Info3,Content, Compra} from "./CartStyle";
 import {addDoc, collection, serverTimestamp, updateDoc, doc} from "firebase/firestore";
 import {db} from "../../Firebase/firebase";
 import Formulario from './Formulario';
@@ -76,8 +76,16 @@ const handlervaciarCarro=()=>{
 
 
     return(
-    <>
+    <Content>
         <h1>Tu carrito</h1>
+        <h2>Para realizar tu compra contactate con nosotros!</h2>
+        
+        <h3>Por mail</h3>
+        marielacardozo525@gmail.com
+        
+        <h3>Por teléfono</h3>
+        
+        3764608043
         {carrito && 
         <>
         <div> 
@@ -87,8 +95,8 @@ const handlervaciarCarro=()=>{
                 <Titulo>{item.nombre}</Titulo>
                 <Imagen src={item.imagen} alt={item.nombre} width={80} height={80}/>
                 <Info>Precio: $ {item.precio}</Info>
-                <Info>Cantidad: {item.contador}</Info>
-                <Info>Total: $ {item.contador*item.precio}</Info>
+                <Info2>Cantidad: {item.contador}</Info2>
+                <Info3>Total: $ {item.contador*item.precio}</Info3>
                 <ButtonFin onClick={() => handlerRemove(item)}>Eliminar item</ButtonFin>
             </LineaItem>
             ))}
@@ -129,7 +137,7 @@ const handlervaciarCarro=()=>{
             
             
         
-    </>
+    </Content>
     )
     
 };

@@ -58,8 +58,10 @@ const NavBar =()=>{
                                 {category.Nombre}
                             </NavLink>
                         </MenuItem>
+                        
                         );
                     })}
+                    
                 </Menu>
                 <CartWidget />
                 
